@@ -27,10 +27,10 @@ function init() {
 function applyTheme() {
     if (isDarkMode) {
         document.body.classList.add('dark-mode');
-        themeToggleBtn.innerText = '☀️ Mode Terang';
+        themeToggleBtn.innerText = '☀️';
     } else {
         document.body.classList.remove('dark-mode');
-        themeToggleBtn.innerText = '🌙 Mode Gelap';
+        themeToggleBtn.innerText = '🌙';
     }
 }
 
